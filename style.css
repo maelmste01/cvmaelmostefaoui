@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Source+Sans+Pro&display=swap');
+
+
+/* Centrer tout les tires h1 */
+h1{
+
+text-align: center;
+
+}
+
+/* Centrer tout les titres h2 */
+
+h2{
+
+text-align: center;
+
+}
+
+
+/* Commande de base pour ne pas avoir de bug dans la page */
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-align: center;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif; /* Police d'écriture */
+    background-position: fixed ; /* Fixer l'arrière plan */
+    background-size: cover; /* Pour que l'arrière plan ne se repete pas */
+}
+
+a{
+    color: rgb(0, 0, 0); /* Couleur noir sur les liens */
+}
+
+/* Navbar = Barre de navigation /*
+ /* Hover = prendre tout */
+
+    nav ul:hover{
+    display: inline-block; /* Mettre en ligne l'element */
+    list-style-type: none; /* type du marqueur d'item de liste à utiliser */
+    background: #e7d8dc; /* Couleur du background */
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px; /* Marge de droite de 20 pixels */
+    padding: 2px; /* Espace de 2 pixels */
+
+}
+
+nav ul li a{
+    text-decoration: none; /* Enlever le soulignement du texte */
+    color: #050000; /* Couleur noir sur les listes ul de la navbar (barre de navigation) */
+}
+
+.col-2{
+    text-align: center; /* centrer les textes de la div */
+    flex-basis: 50%; /* taille du texte */
+    min-width: 300px; /* lageur minimum de 300 pixel */
+}
+.col-2 img{
+    width: 100%; /* Largeur de 100% sur l'image */
+    padding: 30px 0; /* Espace de 30 pixels */
+ 
+}
+
+.col-2 h1{
+     font-size: 50px; /* taille des titres h1 de 50 pixels */
+     line-height: 60px; /* Line du haut de 60 pixels */
+     margin: 25px 0; 
+
+}
+
+.col-2 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #10a7d0; /* Fond bleu */
+    color: #000000;
+    border-radius: 30px; /* Bordure en degradé */
+    margin-top: 25px; /* Marge du haut de 20 pixels */
+    transition: background 0.5s; /* Transition en cliquant sur les liens de 0.5 sec */
+}
+.col-2 a:hover{
+    background: #dfd9d9;
+}
+
+
+
+.col-1{
+
+justify-content: center; /* Aligner les choses au centre */
+
+
+}
+
+ul{
+
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #db9b07de;
+    color: #e9e0e00d;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.5s;
+    
+}
+
+
+.mail{
+
+    
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #d22997;
+    color: #f8f4f40d;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.5s;
+    padding: 1px 45px;
+
+}
+
+.mail:hover{
+
+    background: #f5efef;
+ 
+}
+
+
+.page1{
+
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #dfb427;
+    color: #f8f4f40d;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.5s;
+    margin: 10px;
+
+}
+
+.page1:hover{
+
+    background: #e7d8dc;
+}
+
+
+
+a{
+
+    text-decoration: none;
+}
+
+.presentation{
+
+
+}
+
+.tableau{
+
+    font-weight: 800; /* Mot du tableau en gras d'une force de 800 */
+    justify-content: center;
+    display:flex; /* Commande qui permet de centrer mon tableau car sinon sa ne le centre pas */
+    
+}
